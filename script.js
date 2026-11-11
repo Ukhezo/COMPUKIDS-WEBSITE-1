@@ -1,6 +1,7 @@
 function showDateTime() {
-  var now = new Date();
-  document.getElementById("datetime").textContent = now.toLocaleString();
+  var el = document.getElementById("datetime");
+  if (!el) return;
+  el.textContent = new Date().toLocaleString();
 }
 showDateTime();
 setInterval(showDateTime, 1000);
