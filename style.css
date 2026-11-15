@@ -33,16 +33,24 @@ h1{
     font-style: italic;
 }
 
+.marquee {
+    overflow: hidden;
+}
+
 .moving-text {
     display: inline-block;
     white-space: nowrap;
-    overflow: hidden;
-    animation: scroll-text 10s linear infinite;
+    padding-left: 100%;
+    animation: scroll-text 12s linear infinite;
+}
+
+.moving-text.reverse {
+    animation-direction: reverse;
 }
 
 @keyframes scroll-text {
     from {
-        transform: translateX(100%);
+        transform: translateX(0);
     }
     to {
         transform: translateX(-100%);
@@ -89,5 +97,6 @@ p{
 }
 
 #menu a:hover{
-       color: #5077bd;
+       color: #1d3c78;
+       text-decoration: underline;
        }
