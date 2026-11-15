@@ -10,7 +10,6 @@ A multi-page website for **CompuKids**, a fictional app development company base
 
 ## Features
 
-- **Welcoming home page:** a banner introducing CompuKids with a "Get in touch" button, and a "What we build" section with service cards
 - **Live clock:** JavaScript shows the current date and time, updating every second
 - **Responsive image gallery:** a CSS Grid gallery that adjusts to any screen size
 - **Hero profile pages:** each Avenger has a page with a bio and power stats
@@ -35,7 +34,7 @@ A multi-page website for **CompuKids**, a fictional app development company base
 
 | Page | File | Description |
 | --- | --- | --- |
-| Home | `index.html` | Welcome banner, services, live date and time, and a gallery of six Avengers |
+| Home | `index.html` | Live date and time, plus a gallery of six Avengers |
 | Avengers | `avenger-1.html` to `avenger-6.html` | Bio and power stats for Thor, Iron Man, Hulk, Hawkeye, Captain America and Black Widow |
 | About Us | `about.html` | The company introduction, with scrolling text |
 | Contact | `contact.html` | Contact details and a live clock |
