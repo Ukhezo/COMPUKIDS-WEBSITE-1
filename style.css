@@ -100,3 +100,86 @@ p{
        color: #1d3c78;
        text-decoration: underline;
        }
+
+/* ---------- Home page ---------- */
+.hero-banner{
+    margin: 20px 16px 8px;
+    padding: 28px 28px 22px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, #eef3ff, #fff3f3);
+    border: 1px solid #e3e8f2;
+}
+
+.hero-banner h1{
+    margin: 0 0 10px;
+    font-size: 36px;
+}
+
+.hero-banner p{
+    max-width: 680px;
+    line-height: 1.6;
+    color: #5b6472;
+}
+
+.clock{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.button{
+    display: inline-block;
+    padding: 11px 18px;
+    border-radius: 999px;
+    background: cornflowerblue;
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.button:hover{
+    background: #1d3c78;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 14px;
+}
+
+.service{
+    padding: 18px;
+    border: 1px solid #e3e8f2;
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0 4px 14px rgba(29, 60, 120, 0.06);
+}
+
+.service h3{
+    margin: 0 0 6px;
+    font-family: Helvetica, sans-serif;
+    color: #1d3c78;
+}
+
+.service p{
+    margin: 0;
+    color: #5b6472;
+    line-height: 1.5;
+}
+
+.intro{
+    color: #5b6472;
+}
+
+.gallery{
+    margin-bottom: 32px;
+}
+
+@media (max-width: 520px){
+    .hero-banner{
+        padding: 20px;
+    }
+    .hero-banner h1{
+        font-size: 28px;
+    }
+}
