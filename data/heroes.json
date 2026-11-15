@@ -1,0 +1,111 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "name": "Thor",
+      "image": "avengers_01.jpg",
+      "full_name": "Thor Odinson",
+      "place_of_birth": "Asgard",
+      "alignment": "Good",
+      "gender": "Male",
+      "race": "Asgardian",
+      "power_stats": {
+        "Intelligence": 70,
+        "Speed": 92,
+        "Durability": 100,
+        "Power": 100,
+        "Combat": 100
+      }
+    },
+    {
+      "id": 2,
+      "name": "Iron Man",
+      "image": "avengers_02.jpg",
+      "full_name": "Tony Stark",
+      "place_of_birth": "New York",
+      "alignment": "Good",
+      "gender": "Male",
+      "race": "Human",
+      "power_stats": {
+        "Intelligence": 70,
+        "Strength": 85,
+        "Speed": 58,
+        "Durability": 85,
+        "Power": 100,
+        "Combat": 64
+      }
+    },
+    {
+      "id": 3,
+      "name": "Hulk",
+      "image": "avengers_03.jpg",
+      "full_name": "Bruce Banner",
+      "place_of_birth": "Ohio",
+      "alignment": "Good",
+      "gender": "Male",
+      "race": "Human",
+      "power_stats": {
+        "Intelligence": 88,
+        "Strength": 100,
+        "Speed": 47,
+        "Durability": 100,
+        "Power": 52,
+        "Combat": 85
+      }
+    },
+    {
+      "id": 4,
+      "name": "Hawkeye",
+      "image": "avengers_04.jpg",
+      "full_name": "Clinton Barton",
+      "place_of_birth": "Iowa",
+      "alignment": "Good",
+      "gender": "Male",
+      "race": "Human",
+      "power_stats": {
+        "Intelligence": 88,
+        "Strength": 100,
+        "Speed": 47,
+        "Durability": 100,
+        "Power": 52,
+        "Combat": 85
+      }
+    },
+    {
+      "id": 5,
+      "name": "Captain America",
+      "image": "avengers_05.jpg",
+      "full_name": "Steve Rogers",
+      "place_of_birth": "New York",
+      "alignment": "Good",
+      "gender": "Male",
+      "race": "Human",
+      "power_stats": {
+        "Intelligence": 88,
+        "Strength": 100,
+        "Speed": 47,
+        "Durability": 100,
+        "Power": 52,
+        "Combat": 85
+      }
+    },
+    {
+      "id": 6,
+      "name": "Black Widow",
+      "image": "avengers_06.jpg",
+      "full_name": "Natalia Romanova",
+      "place_of_birth": "Russia",
+      "alignment": "Good",
+      "gender": "Female",
+      "race": "Human",
+      "power_stats": {
+        "Intelligence": 88,
+        "Strength": 100,
+        "Speed": 47,
+        "Durability": 100,
+        "Power": 52,
+        "Combat": 85
+      }
+    }
+  ]
+}
