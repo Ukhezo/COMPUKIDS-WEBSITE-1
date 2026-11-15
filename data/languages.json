@@ -1,0 +1,194 @@
+{
+  "languages": [
+    {
+      "id": "javascript",
+      "name": "JavaScript",
+      "category": "Web",
+      "color": "#f0db4f",
+      "text_color": "#2b2b2b",
+      "year": 1995,
+      "level": "Beginner friendly",
+      "tagline": "The language of the web. It makes websites interactive.",
+      "we_use_it_for": "Interactive websites, online shops and booking forms, like the live clock on this site.",
+      "built_with_it": [
+        "Google Maps",
+        "Netflix website",
+        "Trello"
+      ],
+      "docs": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "file": "hello.js",
+      "code": "const apps = [\"Spaza Pay\", \"Taxi Finder\", \"School Diary\"];\n\napps.forEach((app, i) => {\n  console.log(`${i + 1}. ${app}`);\n});\n\nconsole.log(\"Hello from CompuKids!\");"
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript",
+      "category": "Web",
+      "color": "#3178c6",
+      "text_color": "#ffffff",
+      "year": 2012,
+      "level": "Intermediate",
+      "tagline": "JavaScript with types, so mistakes are caught before the app runs.",
+      "we_use_it_for": "Large web apps and dashboards that a whole team works on.",
+      "built_with_it": [
+        "Visual Studio Code",
+        "Slack",
+        "Airbnb"
+      ],
+      "docs": "https://www.typescriptlang.org/docs/",
+      "file": "app.ts",
+      "code": "type App = { name: string; downloads: number };\n\nconst app: App = { name: \"Spaza Pay\", downloads: 1200 };\n\nfunction describe(a: App): string {\n  return `${a.name} has ${a.downloads} downloads`;\n}\n\nconsole.log(describe(app));"
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "category": "Data",
+      "color": "#3776ab",
+      "text_color": "#ffffff",
+      "year": 1991,
+      "level": "Beginner friendly",
+      "tagline": "Easy to read, and great for data, automation and artificial intelligence.",
+      "we_use_it_for": "Data reports, automation scripts and the tools that build and test this website.",
+      "built_with_it": [
+        "Instagram",
+        "YouTube",
+        "Spotify (data)"
+      ],
+      "docs": "https://docs.python.org/3/tutorial/",
+      "file": "hello.py",
+      "code": "sales = {\"Mon\": 1200, \"Tue\": 950, \"Sat\": 2100}\n\nbest_day = max(sales, key=sales.get)\ntotal = sum(sales.values())\n\nprint(\"Best day:\", best_day)\nprint(\"Total sales: R\", total)"
+    },
+    {
+      "id": "sql",
+      "name": "SQL",
+      "category": "Data",
+      "color": "#00758f",
+      "text_color": "#ffffff",
+      "year": 1974,
+      "level": "Beginner friendly",
+      "tagline": "The language for asking questions of a database.",
+      "we_use_it_for": "Storing app users, orders and payments, and pulling reports from them.",
+      "built_with_it": [
+        "Banking systems",
+        "WordPress websites",
+        "Almost every app with a login"
+      ],
+      "docs": "https://www.sqlite.org/lang.html",
+      "file": "report.sql",
+      "code": "SELECT app_name,\n       COUNT(*) AS downloads\nFROM installs\nWHERE country = 'South Africa'\nGROUP BY app_name\nORDER BY downloads DESC\nLIMIT 5;"
+    },
+    {
+      "id": "kotlin",
+      "name": "Kotlin",
+      "category": "Mobile",
+      "color": "#7f52ff",
+      "text_color": "#ffffff",
+      "year": 2011,
+      "level": "Intermediate",
+      "tagline": "Google's recommended language for Android apps.",
+      "we_use_it_for": "Native Android apps, which most phones in South Africa run.",
+      "built_with_it": [
+        "Google Home app",
+        "Pinterest",
+        "Duolingo"
+      ],
+      "docs": "https://kotlinlang.org/docs/home.html",
+      "file": "Main.kt",
+      "code": "data class App(val name: String, val rating: Double)\n\nfun main() {\n    val apps = listOf(App(\"Spaza Pay\", 4.6), App(\"Taxi Finder\", 4.2))\n    val best = apps.maxBy { it.rating }\n    println(\"Top rated: ${best.name}\")\n}"
+    },
+    {
+      "id": "java",
+      "name": "Java",
+      "category": "Mobile",
+      "color": "#e76f00",
+      "text_color": "#ffffff",
+      "year": 1995,
+      "level": "Intermediate",
+      "tagline": "A reliable language used for Android apps and big business systems.",
+      "we_use_it_for": "Older Android apps and server systems for banks and large companies.",
+      "built_with_it": [
+        "Minecraft (Java Edition)",
+        "Android",
+        "LinkedIn"
+      ],
+      "docs": "https://dev.java/learn/",
+      "file": "Hello.java",
+      "code": "public class Hello {\n    public static void main(String[] args) {\n        String[] apps = {\"Spaza Pay\", \"Taxi Finder\"};\n        for (String app : apps) {\n            System.out.println(\"Building \" + app);\n        }\n    }\n}"
+    },
+    {
+      "id": "swift",
+      "name": "Swift",
+      "category": "Mobile",
+      "color": "#f05138",
+      "text_color": "#ffffff",
+      "year": 2014,
+      "level": "Intermediate",
+      "tagline": "Apple's language for iPhone, iPad and Mac apps.",
+      "we_use_it_for": "Native iPhone apps that feel fast and smooth.",
+      "built_with_it": [
+        "Uber (iOS)",
+        "LinkedIn (iOS)",
+        "Lyft"
+      ],
+      "docs": "https://www.swift.org/getting-started/",
+      "file": "main.swift",
+      "code": "struct App {\n    let name: String\n    let downloads: Int\n}\n\nlet apps = [App(name: \"Spaza Pay\", downloads: 1200),\n            App(name: \"School Diary\", downloads: 800)]\n\nlet total = apps.reduce(0) { $0 + $1.downloads }\nprint(\"Total downloads: \\(total)\")"
+    },
+    {
+      "id": "dart",
+      "name": "Dart (Flutter)",
+      "category": "Mobile",
+      "color": "#0175c2",
+      "text_color": "#ffffff",
+      "year": 2011,
+      "level": "Beginner friendly",
+      "tagline": "With Flutter, one codebase makes both Android and iPhone apps.",
+      "we_use_it_for": "Apps for small businesses that need Android and iPhone on a small budget.",
+      "built_with_it": [
+        "Google Pay",
+        "BMW app",
+        "eBay Motors"
+      ],
+      "docs": "https://dart.dev/language",
+      "file": "main.dart",
+      "code": "void main() {\n  var apps = ['Spaza Pay', 'Taxi Finder', 'School Diary'];\n  var longNames = apps.where((a) => a.length > 10).toList();\n\n  print('All apps: $apps');\n  print('Long names: $longNames');\n}"
+    },
+    {
+      "id": "csharp",
+      "name": "C#",
+      "category": "Desktop & games",
+      "color": "#68217a",
+      "text_color": "#ffffff",
+      "year": 2000,
+      "level": "Intermediate",
+      "tagline": "Microsoft's language for Windows apps, web servers and Unity games.",
+      "we_use_it_for": "Windows business software and fun learning games built in Unity.",
+      "built_with_it": [
+        "Unity games",
+        "Stack Overflow",
+        "Many Windows programs"
+      ],
+      "docs": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+      "file": "Program.cs",
+      "code": "using System;\nusing System.Linq;\n\nvar scores = new[] { 72, 95, 88, 64 };\nvar average = scores.Average();\n\nConsole.WriteLine($\"Class average: {average:F1}%\");\nConsole.WriteLine($\"Top score: {scores.Max()}%\");"
+    },
+    {
+      "id": "cpp",
+      "name": "C++",
+      "category": "Desktop & games",
+      "color": "#00599c",
+      "text_color": "#ffffff",
+      "year": 1985,
+      "level": "Advanced",
+      "tagline": "Very fast. Used where speed matters, like games and graphics.",
+      "we_use_it_for": "Game engines and the fast parts of apps, such as image and video processing.",
+      "built_with_it": [
+        "Unreal Engine games",
+        "Google Chrome",
+        "Adobe Photoshop"
+      ],
+      "docs": "https://www.learncpp.com/",
+      "file": "main.cpp",
+      "code": "#include <iostream>\n#include <vector>\n\nint main() {\n    std::vector<int> levels = {1, 2, 3};\n    for (int level : levels) {\n        std::cout << \"Loading level \" << level << \"\\n\";\n    }\n    return 0;\n}"
+    }
+  ]
+}
